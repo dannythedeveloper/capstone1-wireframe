@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="index.css">
     <title>Movies List</title>
 </head>
+
 <body>
     <header>
         <a href="index.html">
@@ -15,13 +17,13 @@
     </header>
 
     <nav role="navigation">
-        <a href="index.html">Home</a>        
+        <a href="index.html">Home</a>
         <a href="addMovieForm.html">Add movie</a>
     </nav>
     <main>
         <section class="filters">
             <label for="filter" class="filter">Filter: </label>
-            <select id="filter" >
+            <select id="filter">
                 <option value="">...</option>
                 <option value="genre">Genre</option>
                 <option value="watched">Watched</option>
@@ -57,27 +59,7 @@
                 <li class="movie">
                     <div class="column">
                         <div class="movie-title">
-                            <a href="">
-                                <h2>Movie Title</h2>
-                            </a>
-                        </div>
-                        <div class="movie-details">
-                            <p class="year">Year,</p>
-                            <p class="genre">Genre</p>
-                        </div>
-                    </div>
-                    <div class="watched-status">
-                        <input id="watched" name="watched" type="checkbox">
-                        <label for="watched" class="watched">Watched</label>
-                    </div>
-                </li>
-                
-                <li class="movie">
-                    <div class="column">
-                        <div class="movie-title">
-                            <a href="">
-                                <h2>Movie Title</h2>
-                            </a>
+                            <h2>Movie Title</h2>
                         </div>
                         <div class="movie-details">
                             <p class="year">Year,</p>
@@ -93,9 +75,23 @@
                 <li class="movie">
                     <div class="column">
                         <div class="movie-title">
-                            <a href="">
-                                <h2>Movie Title</h2>
-                            </a>
+                            <h2>Movie Title</h2>
+                        </div>
+                        <div class="movie-details">
+                            <p class="year">Year,</p>
+                            <p class="genre">Genre</p>
+                        </div>
+                    </div>
+                    <div class="watched-status">
+                        <input id="watched" name="watched" type="checkbox">
+                        <label for="watched" class="watched">Watched</label>
+                    </div>
+                </li>
+
+                <li class="movie">
+                    <div class="column">
+                        <div class="movie-title">
+                            <h2>Movie Title</h2>
                         </div>
                         <div class="movie-details">
                             <p class="year">Year,</p>
@@ -113,4 +109,5 @@
     </main>
     <footer>Copyright Daniel Carcamo 2021</footer>
 </body>
+
 </html>
